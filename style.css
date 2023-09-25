@@ -21,10 +21,9 @@ p{
 }
 
 h2,h3{
-    align-items: center;
     text-align: center ;
     font-size: 30px;
-text-transform: uppercase;
+    text-transform: uppercase;
 }
  iframe{
    margin-left: 500px;
