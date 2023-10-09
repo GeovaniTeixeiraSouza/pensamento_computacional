@@ -38,15 +38,36 @@ nav li{
  margin-left: 15px;
 }
 
+nav a:hover{
+transition: 0.2s;
+color: #031266;
+text-decoration: underline;
+}
+
 nav a{
     text-transform: uppercase;
-color: black;
+color: rgb(97, 5, 5);
+font-size: 30px;
+font-weight: bold;
+text-decoration: none;
+}
+
+nav a{
+    text-transform: uppercase;
+color: rgb(97, 5, 5);
 font-size: 30px;
 text-decoration: none;
 }
+
+/*fim do header*/
+
+
 body{
     background-color:whitesmoke; 
+
 }
+
+
 
 p{
     margin-left: 5px;
