@@ -49,5 +49,39 @@
 
                   <label for="telefone">Telefone</label>
                   <input class="input-padrao" type="tel" id="teleone"
+                  required placeholder="(xx)xxxxx-xxxx">
+
+                  <label for="mensagem">mensagem</label>
+                  <textarea cols="70" rows="5" id="mensagem" placeholder="ex.: gostaria de agendar um corte de saelo e barba para o próximo sábado."></textarea>
+                  <fieldset>
+                    <legend>em qual horario prefere seu atendimento</legend>
+                    <select>
+                  <option>manhã</option>
+                  <option>tarde</option>
+                  <option>noite</option>
+                    </select>
+                    <fieldset>
+
+                    </fieldset>
+<legend>como prefere o osso contato</legend>
+<label for="radio-email">
+ <input type="radio" name="contato" value="email" id="radio-email">
+ Email
+</label>
+<label for="radio-telefone">
+ <input type="radio" nome="contato" value="telefone"
+ id="radio-telefone">
+ telefone
+</label>
+<label for="radio-whatsapp">
+ <input type="radio" nome="contato" value="whatsapp"
+id="radio-whatsapp" checked >
+whatsapp
+</label>
+           </fieldset>
+           <label class="checked"> gostaria de receber nossa noviade por email?
+<input type="checkbox" checked>
+           </label>
+           <input class="enviar" type="ubmit"  value="enviar">
          </form>
          </main>
