@@ -85,6 +85,40 @@ opacity:75% ;
     margin: 10px auto;
 }
 
+.lista-beneficios{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens{
+    line-height: 1.2;
+}
+
+.itens-first-child{
+    font-weight: bold;
+}
+
+.itens-before {
+    font-weight: bold;
+    content: "\2730 ";
+}
+
+#imagem-beneficios{
+    opacity: 75%;
+    width: 54.2%;
+    height: auto;
+}
+
+#imagem-beneficio:hover{
+    transition: 0.5s;
+    opacity: 100%;
+    box-shadow: 10px 12px 5px #473e3b;
+}
+.videoss{
+    width: 560px;
+    margin: 3rem auto;
+}
 
 nav a{
     text-transform: uppercase;
