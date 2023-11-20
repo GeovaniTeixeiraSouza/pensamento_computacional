@@ -44,6 +44,43 @@ color: #031266;
 text-decoration: underline;
 }
 
+#banner{
+  width: 100%;
+  height: auto;
+}
+
+#utensilios{
+    width: 120px;
+    height: 220px;
+    float: left;
+    margin: auto 15 px 15px auto;
+    border: 1px solid #473e3b;
+}
+
+#utensilios:hover{
+transition: 0,5s;
+box-shadow: 3px 3px 2px #473e3b;
+opacity:75% ;
+}
+
+.localizacao{
+    padding: 3rem 0;
+}
+
+#localizacao p{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.mapa{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.beneficios{
+    padding: 3em 0 ;
+}
+
 nav a{
     text-transform: uppercase;
 color: rgb(97, 5, 5);
